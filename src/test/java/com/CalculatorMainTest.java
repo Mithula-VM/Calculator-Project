@@ -19,6 +19,6 @@ class CalculatorMainTest {
     public void testSub() {
     	Calculator c1 = mock(Calculator.class);
     	c1.sub(20, 10);
-    	verify(c1, times(1)).add(20, 10);
+    	verify(c1, times(1)).sub(20, 10);
     }
 }
