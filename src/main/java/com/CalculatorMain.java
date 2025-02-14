@@ -24,6 +24,6 @@ public class CalculatorMain
 		Calculator c1 = new Calculator();
 		c1.add(10, 20);
 		c1.sub(30, 20);
-		c1.mul(20, 10);
+		c1.mul(20, 20);
 	}
 }
